@@ -7,7 +7,7 @@ def printmatrix(matrix):
 	for line in matrix:
             
 		for element in line:
-			print('%3d' % elem, end='')
+			print('%3d' % element, end='')
 		#fim for
 			
 		print()
